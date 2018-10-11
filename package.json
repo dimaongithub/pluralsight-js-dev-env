@@ -1,0 +1,27 @@
+{
+  "name": "javascript-development-environment",
+  "version": "1.0.0",
+  "description": "Javascript development environment Pluralsight course by Cory House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimaongithub/pluralsight-js-dev-env.git"
+  },
+  "author": "'dumitru'",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimaongithub/pluralsight-js-dev-env/issues"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "nsp": "^3.2.1"
+  },
+  "homepage": "https://github.com/dimaongithub/pluralsight-js-dev-env#readme",
+  "dependencies": {}
+}
